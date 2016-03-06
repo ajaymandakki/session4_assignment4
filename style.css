@@ -1,0 +1,28 @@
+p{
+	text-align: center;
+}
+.grad1{
+	border: 3px solid white;
+	margin-left: 500px;
+	width: 50px;
+    padding: 5px;
+    float: left;
+    background: -webkit-linear-gradient(left,red,green);
+}
+.grad2{
+	border: 3px solid white;
+	margin-left: 20px;
+	width: 50px;
+    padding: 5px;
+    float: left;
+    background: -webkit-radial-gradient(center top,circle,red,yellow,green);
+    background-position: 50% 50%;
+}
+.grad3{
+	border: 3px solid white;
+	margin-left: 20px;
+	width: 50px;
+    padding: 5px;
+    float: left;
+    background: -webkit-radial-gradient(center top,ellipse,red,yellow,green);
+}
